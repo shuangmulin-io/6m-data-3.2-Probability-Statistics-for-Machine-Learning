@@ -31,7 +31,7 @@
 
 - **Read** a distribution shape (normal, skewed, bimodal) and explain why it changes how a model is built and how a result is reported
 - **Compute and interpret** a confidence interval around a sample statistic and articulate what it does and doesn't say
-- **Design and read** a basic A/B test, including the p-value, its assumptions, and the most common mis-readings
+- **Design and read** a basic A/B test, including the p-value, confidence interval, effect size, its assumptions, and the most common mis-readings
 - **Choose between** descriptive and inferential statistics for a given business question
 - **Recognise** the Central Limit Theorem at work and use it to explain why sample means behave well even when the underlying data does not
 
@@ -83,7 +83,7 @@ You will:
 |---|---|---|---|
 | 02 | [`02_distributions.ipynb`](./notebooks/02_distributions.ipynb) | Tuesday | Distribution shapes · normal vs skewed · Z-scores |
 | 03 | [`03_confidence_intervals.ipynb`](./notebooks/03_confidence_intervals.ipynb) | Wednesday | Sampling · the CLT · confidence intervals |
-| 04 | [`04_ab_testing.ipynb`](./notebooks/04_ab_testing.ipynb) | Thursday | A/B testing · p-values · the three mis-readings |
+| 04 | [`04_ab_testing.ipynb`](./notebooks/04_ab_testing.ipynb) | Thursday | A/B testing · p-values · effect size · the three mis-readings |
 
 Each notebook opens with a business scenario, guides you through the code with **Pause & Predict** prompts, and ends with a summary table and reflection. Read every markdown cell, not just the code.
 
@@ -108,7 +108,7 @@ Three tiers of practice (guided → partial → open) followed by three independ
 **🟢 Core (taught in class):**
 - Distributions formalised — normal, skewed, Z-scores
 - Confidence intervals + the Central Limit Theorem
-- A/B testing with p-values
+- A/B testing with p-values and effect size
 
 **🟡 Optional (self-study, not assessed):**
 - Bayes' theorem math
